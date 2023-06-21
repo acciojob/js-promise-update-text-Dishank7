@@ -7,6 +7,6 @@ let prom = new Promise((resolve) => {
 
 setTimeout(() => {
     prom.then(()=>{
-     div.innerText = 'Hello World';
+     div.innerText = 'Hello, world!';
     })
 }, 1000);
